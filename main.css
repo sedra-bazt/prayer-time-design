@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,rgba(55, 63, 218, 0.681),#68116edc);
+    min-height: 100vh;
+    font-family: "Tajawal", sans-serif;
+}
+h1,h6{
+    margin: 0;
+}
+ .countainer{
+padding: 50px 50px;
+}
+header h1,h6{
+    text-align: right;
+}
+header h1{
+    font-size: 40px;
+    color: #fff;
+}
+header h6{
+font-size: 20px;
+padding-top: 10px;
+color: #fff;
+}
+header hr{
+    border-color:#76187d ;
+}
+.content .box {
+    display: flex;
+    justify-content: space-between;
+}
+.content .box .card{
+
+  width:12%;
+  height: 120px;
+  background-color: aliceblue;
+
+}
+.content .box .card .head{
+    background-color: #76187d;
+    text-align: right;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.content .box .card .body{
+ text-align: center;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content .citeis{
+  
+   text-align: center;
+   margin-top: 50px;
+}
+.content .citeis select{
+    width: 200px;
+    padding: 5px;
+    background: none;
+    border: 1px solid #76187d;
+    border-radius: 15px;
+    font-family: "Tajawal", sans-serif;
+    color: #fff;
+}
+.content .citeis select option{
+    /* background: none; */
+}
