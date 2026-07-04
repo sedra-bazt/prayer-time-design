@@ -6,7 +6,7 @@ A dynamic, real-time web application built with pure web technologies that fetch
 
 ##  Tech Stack
 
-- **Core Logic:** Vanilla JavaScript (ES6+ Fetch API, Async/Await)
+- **Core Logic:** Vanilla JavaScript (ES6+ Axios API)
 - **Structure:** HTML5 (Semantic elements)
 - **Styling:** Modern CSS3 
 - **Data Source:** Aladhan Prayer Times API 
